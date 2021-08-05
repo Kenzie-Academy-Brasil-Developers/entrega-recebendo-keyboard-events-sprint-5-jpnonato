@@ -1,6 +1,6 @@
 #moltres {
-     width: 700px; 
-     height: 700px; 
+    width: 15vw;
+    height: 15vw;
      position: absolute;  
      left: 200px; 
      top: 200px; 
@@ -12,6 +12,6 @@ body{
 
 
 #sky{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }

@@ -2,37 +2,38 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.css">
-<script>
 
-
-let boxTop = 200;
-let boxLeft = 200;
-
-'use strict';
-document.addEventListener('keydown', (event) => {
-let moltres = document.getElementById("moltres")
-let tecla = event.keyCode
-if(tecla === 40){
-   boxTop += 10
-} if(tecla === 38){
-   boxTop -= 10
-} if(tecla === 37){
-   boxLeft -= 10
-} if(tecla === 39){
-   boxLeft += 10
-}
-/* left = 37 / rigth = 39 / Up = 38/ down = 40 */
-     moltres.style.top = boxTop + "px";
-     moltres.style.left = boxLeft + "px";
-});
-
-
-</script>
 </head>
 <body>
     <div id="box">
         <img src="img/sky.jpg" id="sky">
         <img src="img/1200px-146Moltres.png" id="moltres">
     </div>
+    <script>
+
+
+      let boxTop = 200;
+      let boxLeft = 200;
+      
+      'use strict';
+      document.addEventListener('keydown', (event) => {
+      let moltres = document.getElementById("moltres")
+      let tecla = event.keyCode
+      if(tecla === 40){
+         boxTop += 10
+      } if(tecla === 38){
+         boxTop -= 10
+      } if(tecla === 37){
+         boxLeft -= 10
+      } if(tecla === 39){
+         boxLeft += 10
+      }
+      /* left = 37 / rigth = 39 / Up = 38/ down = 40 */
+           moltres.style.top = boxTop + "px";
+           moltres.style.left = boxLeft + "px";
+      });
+      
+      
+      </script>
 </body>
 </html>
